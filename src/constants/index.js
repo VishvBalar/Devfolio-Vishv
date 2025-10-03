@@ -17,7 +17,7 @@ const navLinks = [
   },
 ];
 
-const words = [
+const Words = [
   { text: "Ideas", imgPath: "/images/ideas.svg" },
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
@@ -264,7 +264,7 @@ const socialImgs = [
 ];
 
 export {
-  words,
+  Words,
   abilities,
   logoIconsList,
   counterItems,

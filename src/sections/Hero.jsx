@@ -1,5 +1,6 @@
 import React from "react";
-import { Words } from "../constants";
+import { Words } from "../constants/index.js";
+import Button from "../components/Button.jsx";
 
 const Hero = () => {
   return (
@@ -27,6 +28,14 @@ const Hero = () => {
               <h1>Into Real Projects</h1>
               <h1>That Deliver Results</h1>
             </div>
+            <p className="text-white-50 md:text-xl relative z-10 pointer-event-none">
+              Hi, I’m Vishv Balar — not just building projects, but crafting stories with code.
+            </p>
+            <Button 
+              text="See My Work" 
+              className="md:w-80 md:h-16 w-60 h-12" 
+              id="button"/>
+
           </div>
         </header>
         {/*Right : 3d model */}
