@@ -1,6 +1,7 @@
 import React from "react";
 import { Words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
+import Heroexperiance from "../components/HeroModels/Heroexperiance.jsx";
 
 const Hero = () => {
   return (
@@ -28,7 +29,7 @@ const Hero = () => {
               <h1>Into Real Projects</h1>
               <h1>That Deliver Results</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-event-none">
+            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I’m Vishv Balar — not just building projects, but crafting stories with code.
             </p>
             <Button 
@@ -39,6 +40,11 @@ const Hero = () => {
           </div>
         </header>
         {/*Right : 3d model */}
+        <figure>
+          <div className="hero-3d-layout">
+            <Heroexperiance/>
+          </div>
+        </figure>
       </div>
     </section>
   );
